@@ -24,16 +24,14 @@ export default function DashSidebar() {
               label={"User"}
               labelcolor="dark"
               className="my-0.5"
+              as="div"
             >
               Profile
             </Sidebar.Item>
-            <Sidebar.Item
-              icon={HiArrowSmRight}
-              className="my-0.5 cursor-pointer"
-            >
-              SIgn Out
-            </Sidebar.Item>
           </Link>
+          <Sidebar.Item icon={HiArrowSmRight} className="my-0.5 cursor-pointer">
+            SIgn Out
+          </Sidebar.Item>
         </Sidebar.ItemGroup>
       </Sidebar.Items>
     </Sidebar>
